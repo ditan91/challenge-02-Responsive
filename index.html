@@ -173,7 +173,7 @@
         <!-- Carousel Card Section  -->
         <div class="row owl-space">
             <div class="owl-carousel owl-theme">
-                <div class="card items card-owl" style="max-width: 600px;height: 250px;background-color:#F1F3FF;">
+                <div class="col card items card-owl" style="max-width: 600px;height: 250px;background-color:#F1F3FF;">
                     <div class="row">
                         <div class="col card-body d-flex justify-content-around pt-5" >
                             <img class="img-testimonial" src="/assets/img_photo.png" style="width:80px;height: 80px;margin-top: 30px;margin-left: 30px;margin-right: 30px;">
@@ -201,6 +201,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- test -->
                 <div class="col card items card-owl" style="max-width: 600px;height: 250px;background-color:#F1F3FF;">
                     <div class="row">
                         <div class="col card-body d-flex justify-content-around pt-5">
@@ -432,9 +433,9 @@
       var owl = $('.owl-carousel');
       owl.owlCarousel({
         margin: 10,
-        navigation: true,
-        navigationText:[
-            'prev', 'next'
+        nav: true,
+        navText:[
+            "<img src='./assets/prev.png'>", "<img src='./assets/next.png'>"
         ],
         loop: true,
         responsive: {
